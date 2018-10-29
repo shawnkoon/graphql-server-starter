@@ -15,7 +15,8 @@
   },
   "homepage": "https://github.com/shawnkoon/graphql-server-starter#readme",
   "scripts": {
-    "lint": "eslint **/*.js"
+    "lint": "eslint **/*.js",
+    "test": "echo \"Test script is not defined.\""
   },
   "dependencies": {},
   "devDependencies": {
