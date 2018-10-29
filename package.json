@@ -1,0 +1,31 @@
+{
+  "name": "graphql-server-starter",
+  "version": "1.0.0",
+  "description": "GraphQL server in JavaScript/TypeScript with Apollo.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shawnkoon/graphql-server-starter.git"
+  },
+  "author": "shawnkoon",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/shawnkoon/graphql-server-starter/issues"
+  },
+  "homepage": "https://github.com/shawnkoon/graphql-server-starter#readme",
+  "scripts": {
+    "lint": "eslint **/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.14.3"
+  }
+}
