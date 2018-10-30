@@ -16,7 +16,7 @@
   "homepage": "https://github.com/shawnkoon/graphql-server-starter#readme",
   "scripts": {
     "start": "nodemon ./index.js --exec babel-node",
-    "lint": "eslint **/*.js",
+    "lint": "eslint '**/*.js'",
     "test": "echo \"Test script is not defined.\""
   },
   "dependencies": {
