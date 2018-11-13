@@ -9,5 +9,6 @@ cache:
   yarn: true
 
 script:
+  - yarn build:ci
   - yarn lint
   - yarn test
