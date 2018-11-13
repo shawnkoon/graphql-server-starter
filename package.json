@@ -1,6 +1,6 @@
 {
   "name": "graphql-server-starter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "GraphQL server in JavaScript/TypeScript with Apollo.",
   "main": "src/index.ts",
   "repository": {
