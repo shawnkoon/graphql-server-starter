@@ -1,11 +1,13 @@
 import axios from 'axios';
 
-export default class FortuneCookie {
+export class FortuneCookie {
+  private baseUrl: string;
+
   constructor() {
     this.baseUrl = 'http://fortunecookieapi.herokuapp.com/v1/cookie';
   }
 
-  async getOne() {
+  public async getOne() {
     return axios.get(this.baseUrl).then(({ data }) => data[0].fortune.message);
   }
 }

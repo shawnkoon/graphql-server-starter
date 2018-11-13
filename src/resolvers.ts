@@ -1,9 +1,9 @@
-import { CookieApi } from '../store';
+import { cookieApi } from './store';
 
 const resolvers = {
   Query: {
     getFortuneCookie() {
-      return CookieApi.getOne();
+      return cookieApi.getOne();
     },
   },
 };
