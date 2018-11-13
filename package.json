@@ -2,7 +2,7 @@
   "name": "graphql-server-starter",
   "version": "1.0.0",
   "description": "GraphQL server in JavaScript/TypeScript with Apollo.",
-  "main": "index.js",
+  "main": "src/index.ts",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/shawnkoon/graphql-server-starter.git"
@@ -15,8 +15,9 @@
   },
   "homepage": "https://github.com/shawnkoon/graphql-server-starter#readme",
   "scripts": {
-    "start": "nodemon ./index.js --exec babel-node",
-    "lint": "eslint '**/*.js'",
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon",
+    "lint": "tslint 'src/**/*.ts' --project tsconfig.json",
     "test": "echo \"Test script is not defined.\""
   },
   "dependencies": {
@@ -32,15 +33,16 @@
     "@babel/core": "^7.1.2",
     "@babel/node": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
+    "@babel/preset-typescript": "^7.1.0",
     "@babel/register": "^7.0.0",
-    "eslint": "^5.3.0",
-    "eslint-config-airbnb": "17.1.0",
-    "eslint-config-prettier": "^3.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-react": "^7.11.0",
+    "@types/faker": "^4.1.4",
+    "@types/graphql": "^14.0.3",
     "nodemon": "^1.18.5",
-    "prettier": "^1.14.3"
+    "prettier": "^1.15.2",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.0",
+    "tslint-config-prettier": "^1.16.0",
+    "typescript": "^3.1.6"
   }
 }
