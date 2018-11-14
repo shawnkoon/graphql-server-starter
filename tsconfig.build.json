@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // Create js files.
+    "noEmit": false,
+    "declaration": true,
+    "allowJs": false,
+    "outDir": "./dist"
+  }
+}

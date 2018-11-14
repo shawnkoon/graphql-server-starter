@@ -1,6 +1,6 @@
-import express from 'express';
 import { ApolloServer } from 'apollo-server-express';
-import schema from './src/schema';
+import express from 'express';
+import schema from './schema';
 
 const GRAPHQL_PORT = 5001;
 const app = express();
