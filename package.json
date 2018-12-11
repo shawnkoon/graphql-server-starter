@@ -19,7 +19,7 @@
     "build:js": "rimraf dist && tsc -p tsconfig.build.json",
     "start": "ts-node src/index.ts",
     "start:dev": "nodemon",
-    "db": "json-server --watch database.json",
+    "db": "json-server --watch database.json -p 8787",
     "lint": "tslint 'src/**/*.ts' --project tsconfig.json",
     "test": "echo \"Test script is not defined.\""
   },

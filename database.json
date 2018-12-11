@@ -1,1 +1,82 @@
-{}
+{
+  "Students": [
+    {
+      "name": "Shawnkoon",
+      "gender": "m",
+      "age": 20,
+      "id": 1
+    }
+  ],
+  "Teachers": [
+    {
+      "name": "Mr. SquarePants",
+      "gender": "m",
+      "age": 47,
+      "classes": [],
+      "id": 1
+    }
+  ],
+  "Classes": [
+    {
+      "name": "Introduction to Algebra",
+      "subject": "math",
+      "level": 99,
+      "isOffered": true,
+      "maxOccupancy": 42,
+      "preRequisites": [],
+      "id": 1
+    },
+    {
+      "name": "Advanced Algebra",
+      "subject": "math",
+      "level": 105,
+      "isOffered": false,
+      "maxOccupancy": 28,
+      "preRequisites": [
+        1
+      ],
+      "id": 2
+    },
+    {
+      "name": "Pre-Calculus",
+      "subject": "math",
+      "level": 141,
+      "isOffered": true,
+      "maxOccupancy": 33,
+      "preRequisites": [
+        2
+      ],
+      "id": 3
+    },
+    {
+      "name": "Caculus I",
+      "subject": "math",
+      "level": 151,
+      "isOffered": false,
+      "maxOccupancy": 24,
+      "preRequisites": [
+        3
+      ],
+      "id": 4
+    },
+    {
+      "name": "Geometry",
+      "subject": "math",
+      "level": 102,
+      "isOffered": false,
+      "maxOccupancy": 35,
+      "preRequisites": [
+        1
+      ],
+      "id": 5
+    }
+  ],
+  "Grades": [
+    {
+      "student": 1,
+      "class": 1,
+      "grade": 98.5,
+      "id": 1
+    }
+  ]
+}
