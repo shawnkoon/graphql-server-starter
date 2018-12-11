@@ -19,6 +19,7 @@
     "build:js": "rimraf dist && tsc -p tsconfig.build.json",
     "start": "ts-node src/index.ts",
     "start:dev": "nodemon",
+    "db": "json-server --watch database.json -p 8787",
     "lint": "tslint 'src/**/*.ts' --project tsconfig.json",
     "test": "echo \"Test script is not defined.\""
   },
@@ -33,6 +34,7 @@
   "devDependencies": {
     "@types/faker": "^4.1.4",
     "@types/graphql": "^14.0.3",
+    "json-server": "^0.14.0",
     "nodemon": "^1.18.5",
     "prettier": "^1.15.2",
     "rimraf": "^2.6.2",
