@@ -9,6 +9,6 @@ cache:
   yarn: true
 
 script:
-  - yarn build:ci
-  - yarn lint
-  - yarn test
+  - npm run build:ci
+  - npm run lint
+  - npm run test
