@@ -5,9 +5,6 @@ node_js:
 notifications:
   email: false
 
-cache:
-  yarn: true
-
 script:
   - npm run build:ci
   - npm run lint
