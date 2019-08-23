@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@types/faker": "^4.1.4",
-    "@types/graphql": "^14.2.0",
+    "@types/graphql": "14.2.3",
     "json-server": "^0.15.0",
     "nodemon": "^1.18.5",
     "prettier": "^1.15.2",
